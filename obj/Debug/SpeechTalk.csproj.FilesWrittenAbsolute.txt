@@ -1,0 +1,10 @@
+/Users/mww121/Projects/SpeechTalk/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/mww121/Projects/SpeechTalk/obj/Debug/SpeechTalk.MainPage.xaml
+/Users/mww121/Projects/SpeechTalk/obj/Debug/MainPage.xaml.g.cs
+/Users/mww121/Projects/SpeechTalk/bin/Debug/SpeechTalk.dll.mdb
+/Users/mww121/Projects/SpeechTalk/bin/Debug/SpeechTalk.dll
+/Users/mww121/Projects/SpeechTalk/obj/Debug/SpeechTalk.dll
+/Users/mww121/Projects/SpeechTalk/obj/Debug/SpeechTalk.dll.mdb
+/Users/mww121/Projects/SpeechTalk/bin/Debug/Xamarin.Forms.Core.dll
+/Users/mww121/Projects/SpeechTalk/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/mww121/Projects/SpeechTalk/obj/Debug/SpeechTalk.Pages.MainPage.xaml
