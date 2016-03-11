@@ -17,11 +17,11 @@
 			<ColumnDefinition Width="*"/>
 		</Grid.ColumnDefinitions>
 
-		<Label x:Name="DesciptionLabel" Text="{Binding DescriptionMessage}" Font="Arial, 20" Grid.Row="0" Grid.Column="0"/>
+		<Label x:Name="DesciptionLabel" Text="{Binding DescriptionMessage}" TextColor="Black" Font="Arial, 20" Grid.Row="0" Grid.Column="0"/>
 
-		<Entry x:Name="SpeakEntry" Placeholder="{Binding SpeakEntryPlaceholder}" Text="{Binding SpeakText, Mode=TwoWay}" Grid.Row="1" Grid.Column="0"/>
+		<Entry x:Name="SpeakEntry" Placeholder="{Binding SpeakEntryPlaceholder}" BackgroundColor="Silver" Text="{Binding SpeakText, Mode=TwoWay}" Grid.Row="1" Grid.Column="0"/>
 
-		<Button x:Name="SpeakButton" Text="{Binding SpeakTitle}" Command="{Binding SpeakCommand}" Grid.Row="2" Grid.Column="0"/>
+		<Button x:Name="SpeakButton" Text="{Binding SpeakTitle}" TextColor="Blue" Command="{Binding SpeakCommand}" Grid.Row="2" Grid.Column="0"/>
 	</Grid>
 
 	</ContentPage.Content>
