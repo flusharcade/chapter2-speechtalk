@@ -18,9 +18,18 @@ namespace SpeechTalk.Pages {
         
         private Grid Grid;
         
+        private Label DesciptionLabel;
+        
+        private Entry SpeakEntry;
+        
+        private Button SpeakButton;
+        
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(MainPage));
             Grid = this.FindByName <Grid>("Grid");
+            DesciptionLabel = this.FindByName <Label>("DesciptionLabel");
+            SpeakEntry = this.FindByName <Entry>("SpeakEntry");
+            SpeakButton = this.FindByName <Button>("SpeakButton");
         }
     }
 }

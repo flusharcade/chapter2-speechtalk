@@ -1,21 +1,30 @@
-﻿namespace SpeechTalk
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="App.cs" company="Flush Arcade">
+//   Copyright (c) 2015 Flush Arcade All rights reserved.
+// </copyright>
+// --------------------------------------------------------------------------------------------------------------------
+
+namespace SpeechTalk
 {
 	using System;
 
 	using Xamarin.Forms;
 
 	using SpeechTalk.Pages;
+	using SpeechTalk.Ioc;
+	using SpeechTalk.Modules;
 
 	public class App : Application
 	{
 		public App ()
 		{
-			MainPage = new MainPage ();
+			var mainPage = IoC.Resolve<MainPage> ();
+			this.MainPage = new NavigationPage(mainPage);
 		}
 
 		protected override void OnStart ()
 		{
-			// Handle when your app starts
+			
 		}
 
 		protected override void OnSleep ()

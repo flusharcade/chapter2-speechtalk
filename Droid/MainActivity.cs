@@ -1,4 +1,9 @@
-﻿
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="MainActivity.cs" company="Flush Arcade">
+//   Copyright (c) 2015 Flush Arcade All rights reserved.
+// </copyright>
+// --------------------------------------------------------------------------------------------------------------------
+
 namespace SpeechTalk.Droid
 {
 	using System;
@@ -11,6 +16,10 @@ namespace SpeechTalk.Droid
 	using Android.Widget;
 	using Android.OS;
 
+	using SpeechTalk.Ioc;
+	using SpeechTalk.Modules;
+	using SpeechTalk.Droid.Modules;
+
 	[Activity (Label = "SpeechTalk.Droid", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
 	public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsApplicationActivity
 	{
@@ -20,7 +29,17 @@ namespace SpeechTalk.Droid
 
 			global::Xamarin.Forms.Forms.Init (this, bundle);
 
+			this.initIoC ();
+
 			LoadApplication (new App ());
+		}
+
+		private void initIoC()
+		{
+			IoC.CreateContainer ();
+			IoC.RegisterModule (new DroidModule());
+			IoC.RegisterModule (new PCLModule());
+			IoC.StartContainer ();
 		}
 	}
 }

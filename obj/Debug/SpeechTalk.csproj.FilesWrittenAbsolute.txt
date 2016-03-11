@@ -8,3 +8,9 @@
 /Users/mww121/Projects/SpeechTalk/bin/Debug/Xamarin.Forms.Core.dll
 /Users/mww121/Projects/SpeechTalk/bin/Debug/Xamarin.Forms.Xaml.dll
 /Users/mww121/Projects/SpeechTalk/obj/Debug/SpeechTalk.Pages.MainPage.xaml
+/Users/mww121/Projects/SpeechTalk/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile259.AssemblyAttribute.cs
+/Users/mww121/Projects/SpeechTalk/bin/Debug/System.Reactive.Interfaces.dll
+/Users/mww121/Projects/SpeechTalk/bin/Debug/System.Reactive.Core.dll
+/Users/mww121/Projects/SpeechTalk/bin/Debug/System.Reactive.Linq.dll
+/Users/mww121/Projects/SpeechTalk/bin/Debug/System.Reactive.PlatformServices.dll
+/Users/mww121/Projects/SpeechTalk/bin/Debug/Autofac.dll

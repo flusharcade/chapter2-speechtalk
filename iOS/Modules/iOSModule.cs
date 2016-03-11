@@ -1,21 +1,20 @@
-﻿using System;
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="IOSModule.cs" company="Flush Arcade">
+//   Copyright (c) 2015 Flush Arcade All rights reserved.
+// </copyright>
+// --------------------------------------------------------------------------------------------------------------------
 
-using TinyIoC;
-
-namespace SpeechTalk.iOS
+namespace SpeechTalk.iOS.Modules
 {
-	public class iOSModule : IModule
+	using SpeechTalk.Ioc;
+
+	using Autofac;
+
+	public class IOSModule : IModule
 	{
-		private readonly TinyIoCContainer container;
-
-		public iOSModule ()
+		public void Register(ContainerBuilder builer)
 		{
-			this.container = TinyIoCContainer.Current;
-		}
-
-		public void Register()
-		{
-			
+			builer.RegisterType<TextToSpeech> ().As<ITextToSpeech> ().SingleInstance ();
 		}
 	}
 }

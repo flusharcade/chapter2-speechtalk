@@ -13,5 +13,6 @@
 /Users/mww121/Projects/SpeechTalk/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
 /Users/mww121/Projects/SpeechTalk/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
 /Users/mww121/Projects/SpeechTalk/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/mww121/Projects/SpeechTalk/iOS/bin/iPhoneSimulator/Debug/Autofac.dll
 /Users/mww121/Projects/SpeechTalk/iOS/bin/iPhoneSimulator/Debug/SpeechTalk.dll
 /Users/mww121/Projects/SpeechTalk/iOS/bin/iPhoneSimulator/Debug/SpeechTalk.dll.mdb
