@@ -1,18 +1,25 @@
-/Users/mww121/Projects/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
-/Users/mww121/Projects/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.nib
-/Users/mww121/Projects/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
-/Users/mww121/Projects/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/actool/partial-info.plist
-/Users/mww121/Projects/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
-/Users/mww121/Projects/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
-/Users/mww121/Projects/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
-/Users/mww121/Projects/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/optimized/
-/Users/mww121/Projects/SpeechTalk/iOS/bin/iPhoneSimulator/Debug/SpeechTalk.iOS.exe.mdb
-/Users/mww121/Projects/SpeechTalk/iOS/bin/iPhoneSimulator/Debug/SpeechTalk.iOS.exe
-/Users/mww121/Projects/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/SpeechTalk.iOS.exe
-/Users/mww121/Projects/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/SpeechTalk.iOS.exe.mdb
-/Users/mww121/Projects/SpeechTalk/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
-/Users/mww121/Projects/SpeechTalk/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
-/Users/mww121/Projects/SpeechTalk/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
-/Users/mww121/Projects/SpeechTalk/iOS/bin/iPhoneSimulator/Debug/Autofac.dll
-/Users/mww121/Projects/SpeechTalk/iOS/bin/iPhoneSimulator/Debug/SpeechTalk.dll
-/Users/mww121/Projects/SpeechTalk/iOS/bin/iPhoneSimulator/Debug/SpeechTalk.dll.mdb
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.nib
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/actool/partial-info.plist
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcons29x29@3x.png
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcons40x40@3x.png
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcons57x57@2x.png
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcons60x60@3x.png
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcons72x72@2x~ipad.png
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcons76x76@2x~ipad.png
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcons83.5x83.5@2x~ipad.png
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/optimized/
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/iOS/bin/iPhoneSimulator/Debug/SpeechTalk.iOS.exe.mdb
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/iOS/bin/iPhoneSimulator/Debug/SpeechTalk.iOS.exe
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/SpeechTalk.iOS.exe
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/iOS/obj/iPhoneSimulator/Debug/SpeechTalk.iOS.exe.mdb
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/iOS/bin/iPhoneSimulator/Debug/Autofac.dll
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/iOS/bin/iPhoneSimulator/Debug/SpeechTalk.dll
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/iOS/bin/iPhoneSimulator/Debug/SpeechTalk.dll.mdb

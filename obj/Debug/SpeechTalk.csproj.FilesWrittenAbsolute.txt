@@ -14,3 +14,17 @@
 /Users/mww121/Projects/SpeechTalk/bin/Debug/System.Reactive.Linq.dll
 /Users/mww121/Projects/SpeechTalk/bin/Debug/System.Reactive.PlatformServices.dll
 /Users/mww121/Projects/SpeechTalk/bin/Debug/Autofac.dll
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile259.AssemblyAttribute.cs
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/obj/Debug/SpeechTalk.Pages.MainPage.xaml
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/obj/Debug/MainPage.xaml.g.cs
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/bin/Debug/SpeechTalk.dll.mdb
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/bin/Debug/SpeechTalk.dll
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/obj/Debug/SpeechTalk.dll
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/obj/Debug/SpeechTalk.dll.mdb
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/bin/Debug/Xamarin.Forms.Core.dll
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/bin/Debug/System.Reactive.Interfaces.dll
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/bin/Debug/System.Reactive.Core.dll
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/bin/Debug/System.Reactive.Linq.dll
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/bin/Debug/System.Reactive.PlatformServices.dll
+/Users/mww121/Desktop/FlushArcade/PACKT Publishing/Xamarin Blueprints/Chapters/Chapter 2/SpeechTalk/bin/Debug/Autofac.dll
