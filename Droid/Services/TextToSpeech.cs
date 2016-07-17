@@ -1,6 +1,6 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="TextToSpeechDroid.cs" company="Flush Arcade">
-//   Copyright (c) 2015 Flush Arcade All rights reserved.
+// <copyright file="TextToSpeechDroid.cs" company="Flush Arcade Pty Ltd.">
+//   Copyright (c) 2015 Flush Arcade Pty Ltd. All rights reserved.
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
@@ -10,17 +10,35 @@ namespace SpeechTalk.Droid
 
 	using Android.Speech.Tts;
 
+	using Java.Lang;
+
 	using Xamarin.Forms;
 
 	/// <summary>
 	/// Text to speech droid.
 	/// </summary>
-	public class TextToSpeechDroid :  Java.Lang.Object, ITextToSpeech, Android.Speech.Tts.TextToSpeech.IOnInitListener
+	public class TextToSpeechDroid : Object, ITextToSpeech, TextToSpeech.IOnInitListener
 	{
-		Android.Speech.Tts.TextToSpeech speaker;
+		#region Private Properties
 
-		string toSpeak;
+		/// <summary>
+		/// The speaker.
+		/// </summary>
+		private TextToSpeech speaker;
 
+		/// <summary>
+		/// To speak.
+		/// </summary>
+		private string toSpeak;
+
+		#endregion
+
+		#region Public Methods
+
+		/// <summary>
+		/// Speak the specified msg.
+		/// </summary>
+		/// <param name="msg">Message.</param>
 		public void Speak (string msg)
 		{
 			var ctx = Forms.Context; // useful for many Android SDK features
@@ -28,7 +46,7 @@ namespace SpeechTalk.Droid
 
 			if (speaker == null) 
 			{
-				speaker = new Android.Speech.Tts.TextToSpeech (ctx, this);
+				speaker = new TextToSpeech (ctx, this);
 			} 
 			else 
 			{
@@ -37,10 +55,20 @@ namespace SpeechTalk.Droid
 			}
 		}
 
+		#endregion
+
 		#region TextToSpeech.IOnInitListener implementation
 
+		/// <summary>
+		/// Called when IOnInitListener is initialized.
+		/// </summary>
+		/// <returns>The init.</returns>
+		/// <param name="status">Status.</param>
 		public void OnInit (OperationResult status)
 		{
+			/// <summary>
+			/// Text to speech droid.
+			/// </summary>
 			if (status.Equals (OperationResult.Success)) 
 			{
 				var p = new Dictionary<string,string> ();
@@ -51,4 +79,3 @@ namespace SpeechTalk.Droid
 		#endregion
 	}
 }
-

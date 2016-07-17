@@ -1,6 +1,6 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="TextToSpeechWinPhone.cs" company="Flush Arcade">
-//   Copyright (c) 2015 Flush Arcade All rights reserved.
+// <copyright file="TextToSpeechWinPhone.cs" company="Flush Arcade Pty Ltd.">
+//   Copyright (c) 2015 Flush Arcade Pty Ltd. All rights reserved.
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
@@ -15,12 +15,17 @@ namespace SpeechTalk.WinPhone.Services
     using Windows.Media.SpeechSynthesis;
     using Windows.UI.Xaml.Controls;
 
+	/// <summary>
+	/// Text to speech win phone.
+	/// </summary>
     public class TextToSpeechWinPhone : ITextToSpeech
     {
-        public TextToSpeechWinPhone() 
-        { 
-        }
+		#region Public Methods
 
+		/// <summary>
+		/// Register the specified builer.
+		/// </summary>
+		/// <param name="text">string.</param>
         public async void Speak(string text)
         {
             MediaElement mediaElement = new MediaElement();
@@ -32,5 +37,7 @@ namespace SpeechTalk.WinPhone.Services
             mediaElement.SetSource(stream, stream.ContentType);
             mediaElement.Play();
         }
-    }
+
+		#endregion
+	}
 }

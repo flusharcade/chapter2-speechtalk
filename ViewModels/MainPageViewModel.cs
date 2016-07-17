@@ -1,6 +1,6 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="ViewModelBase.cs" company="Flush Arcade">
-//   Copyright (c) 2015 Flush Arcade All rights reserved.
+// <copyright file="ViewModelBase.cs" company="Flush Arcade Pty Ltd.">
+//   Copyright (c) 2015 Flush Arcade Pty Ltd. All rights reserved.
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
@@ -11,118 +11,159 @@ namespace SpeechTalk.ViewModels
 
 	using Xamarin.Forms;
 
+	/// <summary>
+	/// Main page view model.
+	/// </summary>
 	public class MainPageViewModel : ViewModelBase
 	{
 		#region Private Properties
 
-		private readonly ITextToSpeech textToSpeech;
+		/// <summary>
+		/// The text to speech.
+		/// </summary>
+		private readonly ITextToSpeech _textToSpeech;
 
+		/// <summary>
+		/// The description message.
+		/// </summary>
 		private string descriptionMessage = "Enter text and press the 'Speak' button to start speaking";
 
+		/// <summary>
+		/// The speak entry placeholder.
+		/// </summary>
 		private string speakEntryPlaceholder = "Text to speak";
 
+		/// <summary>
+		/// The speak text.
+		/// </summary>
 		private string speakText = string.Empty;
 
+		/// <summary>
+		/// The speak title.
+		/// </summary>
 		private string speakTitle = "Speak";
 
+		/// <summary>
+		/// The speak command.
+		/// </summary>
 		private ICommand speakCommand;
 
 		#endregion
 
 		#region Public Properties
 
+		/// <summary>
+		/// Gets or sets the description message.
+		/// </summary>
+		/// <value>The description message.</value>
 		public string DescriptionMessage
 		{
 			get
 			{
-				return this.descriptionMessage;
+				return descriptionMessage;
 			}
 
 			set
 			{
-				if (value.Equals(this.descriptionMessage))
+				if (value.Equals(descriptionMessage))
 				{
 					return;
 				}
 
-				this.descriptionMessage = value;
-				this.OnPropertyChanged("DescriptionMessage");
+				descriptionMessage = value;
+				OnPropertyChanged("DescriptionMessage");
 			}
 		}
 
+		/// <summary>
+		/// Gets or sets the speak entry placeholder.
+		/// </summary>
+		/// <value>The speak entry placeholder.</value>
 		public string SpeakEntryPlaceholder
 		{
 			get
 			{
-				return this.speakEntryPlaceholder;
+				return speakEntryPlaceholder;
 			}
 
 			set
 			{
-				if (value.Equals(this.speakEntryPlaceholder))
+				if (value.Equals(speakEntryPlaceholder))
 				{
 					return;
 				}
 
-				this.speakEntryPlaceholder = value;
-				this.OnPropertyChanged("SpeakEntryPlaceholder");
+				speakEntryPlaceholder = value;
+				OnPropertyChanged("SpeakEntryPlaceholder");
 			}
 		}
 
+		/// <summary>
+		/// Gets or sets the speak text.
+		/// </summary>
+		/// <value>The speak text.</value>
 		public string SpeakText
 		{
 			get
 			{
-				return this.speakText;
+				return speakText;
 			}
 
 			set
 			{
-				if (value.Equals(this.speakText))
+				if (value.Equals(speakText))
 				{
 					return;
 				}
 
-				this.speakText = value;
-				this.OnPropertyChanged("SpeakText");
+				speakText = value;
+				OnPropertyChanged("SpeakText");
 			}
 		}
 
+		/// <summary>
+		/// Gets or sets the speak title.
+		/// </summary>
+		/// <value>The speak title.</value>
 		public string SpeakTitle
 		{
 			get
 			{
-				return this.speakTitle;
+				return speakTitle;
 			}
 
 			set
 			{
-				if (value.Equals(this.speakTitle))
+				if (value.Equals(speakTitle))
 				{
 					return;
 				}
 
-				this.speakTitle = value;
-				this.OnPropertyChanged("SpeakTitle");
+				speakTitle = value;
+				OnPropertyChanged("SpeakTitle");
 			}
 		}
 
+		/// <summary>
+		/// Gets or sets the speak command.
+		/// </summary>
+		/// <value>The speak command.</value>
 		public ICommand SpeakCommand
 		{
 			get
 			{
-				return this.speakCommand;
+				return speakCommand;
 			}
 
 			set
 			{
-				if (value.Equals(this.speakCommand))
+				if (value.Equals(speakCommand))
 				{
 					return;
 				}
 
-				this.speakCommand = value;
-				this.OnPropertyChanged("SpeakCommand");
+				speakCommand = value;
+				OnPropertyChanged("SpeakCommand");
 			}
 		}
 
@@ -130,14 +171,17 @@ namespace SpeechTalk.ViewModels
 
 		#region Constructors
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="T:SpeechTalk.ViewModels.MainPageViewModel"/> class.
+		/// </summary>
+		/// <param name="textToSpeech">Text to speech.</param>
 		public MainPageViewModel (ITextToSpeech textToSpeech)
 		{
-			this.textToSpeech = textToSpeech;
+			_textToSpeech = textToSpeech;
 
-			this.speakCommand = new Command ((c) => this.textToSpeech.Speak (this.SpeakText));
+			speakCommand = new Command ((c) => textToSpeech.Speak (SpeakText));
 		}
 
 		#endregion
 	}
 }
-

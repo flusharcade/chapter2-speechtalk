@@ -1,40 +1,47 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="MainActivity.cs" company="Flush Arcade">
-//   Copyright (c) 2015 Flush Arcade All rights reserved.
+// <copyright file="MainActivity.cs" company="Flush Arcade Pty Ltd.">
+//   Copyright (c) 2015 Flush Arcade Pty Ltd. All rights reserved.
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
 namespace SpeechTalk.Droid
 {
-	using System;
-
 	using Android.App;
-	using Android.Content;
 	using Android.Content.PM;
-	using Android.Runtime;
-	using Android.Views;
-	using Android.Widget;
 	using Android.OS;
+
+	using SpeechTalk.Droid.Modules;
 
 	using SpeechTalk.Ioc;
 	using SpeechTalk.Modules;
-	using SpeechTalk.Droid.Modules;
 
+	/// <summary>
+	/// Main activity.
+	/// </summary>
 	[Activity (Label = "SpeechTalk.Droid", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
 	public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsApplicationActivity
 	{
+		/// <summary>
+		/// Called when activity is created.
+		/// </summary>
+		/// <returns>The create.</returns>
+		/// <param name="bundle">Bundle.</param>
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
 
 			global::Xamarin.Forms.Forms.Init (this, bundle);
 
-			this.initIoC ();
+			InitIoC ();
 
 			LoadApplication (new App ());
 		}
 
-		private void initIoC()
+		/// <summary>
+		/// Inits the IoC container and modules.
+		/// </summary>
+		/// <returns>The io c.</returns>
+		private void InitIoC()
 		{
 			IoC.CreateContainer ();
 			IoC.RegisterModule (new DroidModule());
@@ -43,4 +50,3 @@ namespace SpeechTalk.Droid
 		}
 	}
 }
-

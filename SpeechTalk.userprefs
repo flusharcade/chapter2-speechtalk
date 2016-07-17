@@ -1,21 +1,9 @@
-﻿<Properties StartupItem="Droid/SpeechTalk.Droid.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone5s.9.0" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
-    <Files>
-      <File FileName="iOS/AppDelegate.cs" Line="26" Column="4" />
-      <File FileName="Droid/MainActivity.cs" Line="1" Column="1" />
-      <File FileName="Services/ITextToSpeech.cs" Line="1" Column="1" />
-      <File FileName="iOS/Modules/iOSModule.cs" Line="18" Column="4" />
-      <File FileName="iOS/Services/TextToSpeech.cs" Line="1" Column="1" />
-      <File FileName="Pages/MainPage.xaml.cs" Line="22" Column="26" />
-      <File FileName="ViewModels/MainPageViewModel.cs" Line="133" Column="29" />
-      <File FileName="Modules/PCLModule.cs" Line="1" Column="1" />
-      <File FileName="Pages/ViewPage.cs" Line="13" Column="19" />
-      <File FileName="Pages/MainPage.xaml" Line="29" Column="11" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+﻿<Properties StartupItem="iOS/SpeechTalk.iOS.csproj">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.SpeechTalk.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.4D94D0EF-12F5-45B6-83B6-58F50C2938C0" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

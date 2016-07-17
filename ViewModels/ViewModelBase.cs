@@ -1,14 +1,12 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="ViewModelBase.cs" company="Flush Arcade">
-//   Copyright (c) 2015 Flush Arcade All rights reserved.
+// <copyright file="ViewModelBase.cs" company="Flush Arcade Pty Ltd.">
+//   Copyright (c) 2015 Flush Arcade Pty Ltd. All rights reserved.
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
 namespace SpeechTalk.ViewModels
 {
-	using System;
 	using System.ComponentModel;
-	using System.Reactive.Linq;
 	using System.Runtime.CompilerServices;
 
 	/// <summary>
@@ -33,7 +31,7 @@ namespace SpeechTalk.ViewModels
 		/// <param name="propertyName">Property name.</param>
 		protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
 		{
-			PropertyChangedEventHandler handler = this.PropertyChanged;
+			PropertyChangedEventHandler handler = PropertyChanged;
 
 			if (handler != null)
 			{

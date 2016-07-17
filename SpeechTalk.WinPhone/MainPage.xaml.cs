@@ -1,6 +1,6 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="MainPage.cs" company="Flush Arcade">
-//   Copyright (c) 2015 Flush Arcade All rights reserved.
+// <copyright file="MainPage.cs" company="Flush Arcade Pty Ltd.">
+//   Copyright (c) 2015 Flush Arcade Pty Ltd. All rights reserved.
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
@@ -33,22 +33,36 @@ namespace SpeechTalk.WinPhone
     /// </summary>
     public sealed partial class MainPage
     {
+		#region Constructors
+
+		/// <summary>
+		/// Initializes a new instance of MainPage.
+		/// </summary>
         public MainPage()
         {
-            this.InitializeComponent();
+            InitializeComponent();
 
-            this.initIoC();
+            InitIoC();
 
-            this.NavigationCacheMode = NavigationCacheMode.Required;
+            NavigationCacheMode = NavigationCacheMode.Required;
             LoadApplication(new SpeechTalk.App());
         }
 
-        private void initIoC()
+		#endregion
+
+		#region Constructors
+
+		/// <summary>
+		/// Inits the IoC container and modules.
+		/// </summary>
+        private void InitIoC()
         {
             IoC.CreateContainer();
             IoC.RegisterModule(new WinPhoneModule());
             IoC.RegisterModule(new PCLModule());
             IoC.StartContainer();
         }
+
+		#endregion
     }
 }

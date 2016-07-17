@@ -1,6 +1,6 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="ViewModelBase.cs" company="Flush Arcade">
-//   Copyright (c) 2015 Flush Arcade All rights reserved.
+// <copyright file="WinPhoneModule.cs" company="Flush Arcade Pty Ltd.">
+//   Copyright (c) 2015 Flush Arcade Pty Ltd. All rights reserved.
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
@@ -17,8 +17,15 @@ namespace SpeechTalk.WinPhone.Modules
     using SpeechTalk.Ioc;
     using SpeechTalk.WinPhone.Services;
 
+	/// <summary>
+	/// Win phone module.
+	/// </summary>
     public class WinPhoneModule : IModule
     {
+		/// <summary>
+		/// Register the specified builer.
+		/// </summary>
+		/// <param name="builer">Builer.</param>
         public void Register(ContainerBuilder builer)
         {
             builer.RegisterType<TextToSpeechWinPhone>().As<ITextToSpeech>().SingleInstance();

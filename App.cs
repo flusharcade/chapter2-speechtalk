@@ -1,6 +1,6 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="App.cs" company="Flush Arcade">
-//   Copyright (c) 2015 Flush Arcade All rights reserved.
+// <copyright file="App.cs" company="Flush Arcade Pty Ltd.">
+//   Copyright (c) 2015 Flush Arcade Pty Ltd. All rights reserved.
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
@@ -19,7 +19,7 @@ namespace SpeechTalk
 		public App ()
 		{
 			var mainPage = IoC.Resolve<MainPage> ();
-			this.MainPage = new NavigationPage(mainPage);
+			MainPage = new NavigationPage(mainPage);
 		}
 
 		protected override void OnStart ()

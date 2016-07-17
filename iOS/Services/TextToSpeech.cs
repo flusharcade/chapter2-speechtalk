@@ -1,17 +1,24 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="TextToSpeech.cs" company="Flush Arcade">
-//   Copyright (c) 2015 Flush Arcade All rights reserved.
+// <copyright file="TextToSpeech.cs" company="Flush Arcade Pty Ltd.">
+//   Copyright (c) 2015 Flush Arcade Pty Ltd. All rights reserved.
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
 namespace SpeechTalk
 {
-	using System;
-
 	using AVFoundation;
 
+	/// <summary>
+	/// Text to speech.
+	/// </summary>
 	public class TextToSpeech : ITextToSpeech
 	{
+		#region Public Methods
+
+		/// <summary>
+		/// Speak the specified msg.
+		/// </summary>
+		/// <param name="msg">Message.</param>
 		public void Speak (string msg)
 		{
 			var speechSynthesizer = new AVSpeechSynthesizer ();
@@ -26,6 +33,7 @@ namespace SpeechTalk
 
 			speechSynthesizer.SpeakUtterance (speechUtterance);
 		}
+
+		#endregion
 	}
 }
-
